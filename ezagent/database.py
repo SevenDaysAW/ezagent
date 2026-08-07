@@ -79,16 +79,6 @@ class Database:
         obj = Database(default_dict=data, filename=filename, readonly=readonly)
         return obj
 
-def db_terminal(db: Database):
-    """
-    数据库交互终端，允许直接对数据库进行操作
-    
-    Args:
-        db: Database 实例
-    """
-    while True:
-        exec(input(">>> "))
-
 def load(filename: str, readonly: bool = False):
     """
     加载数据库的便捷函数
