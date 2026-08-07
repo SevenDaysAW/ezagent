@@ -1,6 +1,6 @@
 from typing import List, Dict, Optional
-from agent import Agent
-from database import Database
+from .agent import Agent
+from .database import Database
 import random
 
 class ChatGroup:
