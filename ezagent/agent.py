@@ -1,5 +1,5 @@
 from zai import ZhipuAiClient as _Client
-from database import Database
+from .database import Database
 
 DEFAULT_MODEL = "GLM-4-Flash-250414"
 
